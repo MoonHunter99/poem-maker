@@ -9,5 +9,6 @@ with open("mylife.txt" , "a") as mylife_file:
         #ask the user for the input in the file
         user_line_input = str(input("Enter a line to add to your file: "))
         #write the input of the user in the file
+        mylife_file.write(user_line_input + "\n")
         #ask the user if he/she wants to put more lines
         #check the answer in the ask user again
