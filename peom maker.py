@@ -11,4 +11,5 @@ with open("mylife.txt" , "a") as mylife_file:
         #write the input of the user in the file
         mylife_file.write(user_line_input + "\n")
         #ask the user if he/she wants to put more lines
+        continue_question = input("would you like to add another line?(Y/N): ")
         #check the answer in the ask user again
