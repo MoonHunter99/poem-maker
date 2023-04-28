@@ -13,3 +13,7 @@ with open("mylife.txt" , "a") as mylife_file:
         #ask the user if he/she wants to put more lines
         continue_question = input("would you like to add another line?(Y/N): ")
         #check the answer in the ask user again
+        if continue_question in yes_user_input:
+            continue
+        elif continue_question in no_user_input:
+            break
